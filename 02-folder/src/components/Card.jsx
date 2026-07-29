@@ -15,6 +15,7 @@ const Card = () =>{
           View Profile
         </button>
       </div>
+      
     </div> 
   )
 }

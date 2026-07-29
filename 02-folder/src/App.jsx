@@ -4,8 +4,10 @@ import Card from './components/Card';
 const App = () => {
   const age = 20;
   return (
-    <div>
+    <div className='app'>
       <Card />
+      <Card />
+       <Card />
       <Card />
     </div>
   )
