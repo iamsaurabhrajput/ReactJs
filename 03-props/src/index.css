@@ -5,6 +5,7 @@
 .man{
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card{
   margin: 20px;
@@ -26,9 +27,17 @@
   text-align: center;
 }
 .butt{
-  margin-left: 28%;
-  margin-top: 25%;
+  /* margin-left: 28%; */
+  margin-top: 25%; 
   background-color: aliceblue;
   border-radius: 5px;
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but{
+  display: flex;
+  
+  justify-content: center;
 }
