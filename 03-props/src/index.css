@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.man{
+  display:flex;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 20px;
+  height: 300px;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(244, 239, 239);
+
+}
+.card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50vh;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+.card h1,p{
+  text-align: center;
+}
+.butt{
+  margin-left: 28%;
+  margin-top: 25%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+}
