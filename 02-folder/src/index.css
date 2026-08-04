@@ -13,6 +13,11 @@ border-radius: 5px;
 background-color:rgb(191, 185, 185);
 
 }
+.full:hover{
+  background-color: cadetblue;
+  transform: scale(1.1);
+  
+}
 .header {
   display: flex;
   justify-content: center;
@@ -45,10 +50,15 @@ background-color:rgb(191, 185, 185);
 .app{
   display: flex;
   flex-wrap: wrap;
+  
   /* grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
   justify-items: center; */
 
 
+}
+button:hover {
+  background-color: aqua;
+  transform: scale(1.1);
 }
